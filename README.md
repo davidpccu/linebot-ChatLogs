@@ -1,11 +1,15 @@
 # Line Chatbot
+
 使用 Node.js 建立 Line機器人 利用Google試算表紀錄聊天內容
+
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2a/d0/87/2ad08788-c5a6-0e4f-1142-577a500b970a/AppIcon-1x_U007emarketing-85-220-0-5.png/230x0w.jpg" width="20%">
 
 
 ## Todolist
 
 + A little side project
 + 單純順手筆記紀錄一下
+
 
 ### 1. 建立Google表單
 
@@ -14,13 +18,15 @@
 
 在這裡我們會利用Google表單地回復功能，來記錄機器人所在群組所以有文字訊息
 
+
 ### 2. 建立回應試算表
 
 - 回復 → 建立新試算表
 
+
 建立完成後回到雲端硬碟內應該會看到兩個試算表
 
-<img src="https://i.imgur.com/SnyDZH9.jpg" width="60%">
+<img src="https://i.imgur.com/SnyDZH9.jpg" width="40%">
 
 
 ### 3. 觀察Request
@@ -29,7 +35,9 @@
 
 <img src="https://i.imgur.com/m1wNJeO.jpg" width="60%">
 
+
 選取第二個選項後，我們來觀察一下Request的內容
+
 
 <img src="https://i.imgur.com/syyHCpI.jpg" width="60%">
 
@@ -54,7 +62,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSdF-LzuuEw12q7xUerltXagXv52c0Yaz2NGmnqf
 ```
 
 所以如果我們要透過試算表紀錄聊天內容
+
 只需要在建立表單時候，將選項設定成『簡答』即可
+
 
 ## 4. 實作紀錄聊天內容
 
@@ -80,3 +90,5 @@ var options = {
 ```
 
 <img src="https://i.imgur.com/95wWluU.jpg" width="60%">
+
+> 這樣以後就不用怕有人回收訊息來不及看了 !
